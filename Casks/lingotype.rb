@@ -1,6 +1,6 @@
 cask "lingotype" do
-  version "0.1.33"
-  sha256 "6cea82717882e83a46ae5ae3453f045467ff0dbac5fadd773c989768e9329373"
+  version "0.1.34"
+  sha256 "cbe36b1ee5d42af7072ef230b8a4e7f83594363d702c3e8b51a9b73e4f6d1536"
 
   url "https://github.com/ankalago/homebrew-tap/releases/download/v#{version}/LingoType-macOS.zip"
   name "LingoType"
