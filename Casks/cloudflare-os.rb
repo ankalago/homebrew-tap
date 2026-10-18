@@ -1,6 +1,6 @@
 cask "cloudflare-os" do
-  version "0.1.5"
-  sha256 "6e47ed1e8827254f842d50477c8f886bc100a18148bdf41892369aad3c408ab9"
+  version "0.1.6"
+  sha256 "a61243e9e2620cf610e9d35f9a49aeeee36b3382651ede8a5dba43f1308fb53f"
 
   url "https://github.com/ankalago/homebrew-tap/releases/download/cloudflare-os-v#{version}/CloudflareOS-macOS.zip"
   name "Cloudflare OS"
