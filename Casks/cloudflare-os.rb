@@ -1,6 +1,6 @@
 cask "cloudflare-os" do
-  version "0.1.7"
-  sha256 "71515013959e7606f1332dc370a6f5a24728066f991c99fd15df400abb08631c"
+  version "0.1.9"
+  sha256 "811641dfa31fa57fe95e8517a3ae26b5b7495b071c2d6fdee003ac2ae03d41db"
 
   url "https://github.com/ankalago/homebrew-tap/releases/download/cloudflare-os-v#{version}/CloudflareOS-macOS.zip"
   name "Impuestos"
