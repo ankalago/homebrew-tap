@@ -1,24 +1,24 @@
 cask "cloudflare-os" do
-  version "0.1.6"
-  sha256 "a61243e9e2620cf610e9d35f9a49aeeee36b3382651ede8a5dba43f1308fb53f"
+  version "0.1.7"
+  sha256 "71515013959e7606f1332dc370a6f5a24728066f991c99fd15df400abb08631c"
 
   url "https://github.com/ankalago/homebrew-tap/releases/download/cloudflare-os-v#{version}/CloudflareOS-macOS.zip"
-  name "Cloudflare OS"
+  name "Impuestos"
   desc "Unofficial desktop build of Cloudflare OS that runs locally"
   homepage "https://github.com/ankalago/homebrew-tap"
 
   depends_on arch: :arm64
 
-  app "Cloudflare OS.app"
+  app "Impuestos.app"
 
   # Homebrew 7 install steps: quitting a copy that is not running is not an error, and the
   # quarantine is cleared because the app has no Developer ID.
   preflight_steps do
-    terminate_process "Cloudflare OS.app", match: :full
+    terminate_process "Impuestos.app", match: :full
   end
 
   postflight_steps do
-    run "/usr/bin/xattr", args: ["-cr", "{{appdir}}/Cloudflare OS.app"]
+    run "/usr/bin/xattr", args: ["-cr", "{{appdir}}/Impuestos.app"]
   end
 
   zap trash: [
