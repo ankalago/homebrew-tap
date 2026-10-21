@@ -1,6 +1,6 @@
 cask "catlingo" do
-  version "0.1.36"
-  sha256 "aa31af5090f3f802eab027b66e23854cfa340c4e5d6bf050b33ed718981032d1"
+  version "0.1.42"
+  sha256 "554d65b1d9a17d728ad6ad6ee667ebec775a07f029f87c82c1a7fc620106ce43"
 
   url "https://github.com/ankalago/homebrew-tap/releases/download/v#{version}/CatLingo-macOS.zip"
   name "CatLingo"
