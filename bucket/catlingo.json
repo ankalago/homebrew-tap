@@ -1,10 +1,10 @@
 {
-  "version": "0.1.45",
+  "version": "0.1.48",
   "description": "CatLingo — Native AI translation, proofreading, and context-aware autocomplete assistant",
   "homepage": "https://github.com/ankalago/homebrew-tap",
   "license": "MIT",
-  "url": "https://github.com/ankalago/homebrew-tap/releases/download/v0.1.45/CatLingo-Windows.zip",
-  "hash": "2bc6dc0e757e5433fc1220316648581c9aecf4e52d50c7592ff17b4ce2ca8a47",
+  "url": "https://github.com/ankalago/homebrew-tap/releases/download/v0.1.48/CatLingo-Windows.zip",
+  "hash": "f2145b6bf58187bbc076161c83e120503debf5aa2ce2ccd00ca608cac7af5df5",
   "extract_dir": "CatLingo-win32-x64",
   "bin": "CatLingo.exe",
   "shortcuts": [
